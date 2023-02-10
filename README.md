@@ -13,3 +13,6 @@ Result: 3.
 Calculo digito Verificador Modulo 11 PHP
 Funcion para calcular el DV segun Modulo 11, como funcion en PHP
 Ejecutar Funcion:
+$dv=mr_digito_verificador('3535123');
+echo $dv;
+Result: 3.
