@@ -1,14 +1,14 @@
 # DV modulo11
 
-# Funcion para obtener el DV de un ruc segun la SET (Paraguay).
+# Función para obtener el DV de un ruc según la SET (Paraguay).
 	Funciones en: PostgreSQL,PHP, Python
 
 
 
-# Calculo digito Verificador Modulo 11 PostgreSQL
+# Cálculo digito Verificador Modulo 11 PostgreSQL
 
 
-	Funcion para calcular el DV segun el modulo 11, como funcion en PostgresSQL.}
+	Función para calcular el DV segun el modulo 11, como Función en PostgresSQL.}
 
 	Metodo de Uso crear el script en BD:
 	ejecutar: 
@@ -17,18 +17,18 @@
 	Result: 3.
 
 
-# Calculo digito Verificador Modulo 11 PHP
+# Cálculo digito Verificador Modulo 11 PHP
 
-	Funcion para calcular el DV segun Modulo 11, como funcion en PHP
+	Función para calcular el DV segun Modulo 11, como Función en PHP
 	Ejecutar Funcion:
 	$dv=mr_digito_verificador('3535123');
 	echo $dv;
 	Result: 3.
 
 
-# Calculo digito Verificador Modulo 11 Python
+# Cálculo digito Verificador Modulo 11 Python
 
-	Ejecutar Funcion:
+	Ejecutar Función:
 	p_numero = "3535123"
 	p_basemax = 11
 
