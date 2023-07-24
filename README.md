@@ -1,7 +1,7 @@
-# DV modulo11
+# DV modulo11 ekuatia, sifen
 
 # Función para obtener el DV de un ruc según la SET (Paraguay).
-	Funciones en: PostgreSQL,PHP, Python
+	Funciones en: PostgreSQL,PHP, Python, JAVA
 
 
 
@@ -35,3 +35,12 @@
 	resultado = mr_digito_verificador(p_numero, p_basemax)
 
 	print(resultado) == 3.
+
+ 
+# Cálculo digito Verificador Modulo 11 JAVA
+
+	Función para calcular el DV segun Modulo 11, como Función en JAVA
+	Llamar al metodo:
+	int dv=mr_digito_verificador('3535123',11);
+	System.out.println("dv: " + dv);
+	
